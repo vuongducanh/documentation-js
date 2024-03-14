@@ -43,7 +43,7 @@ function sum(a, b) {
 ```js
 const counter1 = makeCounter()
 
-console.log(counter1()) // What's the output
+console.log(counter1()) // What's the output?
 
 function makeCounter() {
   let counter = 0
