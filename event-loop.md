@@ -76,4 +76,5 @@
 - Step 5: event loop sẽ check xem trong call stack có đang trống không
   - Nếu trống thì sẽ bốc từ callback queue lên call stack. bốc thằng đầu tiên và thực thi hàm trong call stack
 
-Referential document: [jsv9000](https://www.jsv9000.app/) or [latentflip](http://latentflip.com/loupe/)
+Referential document: <a href="https://www.jsv9000.app/" target="_blank">jsv9000</a> or
+<a href="http://latentflip.com/loupe/" target="_blank">latentflip</a>
