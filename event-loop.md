@@ -48,7 +48,7 @@
 - Step 1: chạy đoạn code:
   ```js
     setTimeout(function log1() {
-      console.log(1) // 1
+      console.log(1)
     }, 3000);
   ```
   - Giải thích: đoạn code này có setTimeout (một web apis) chạy bất đồng bộ , vì nó là một web api nên nó sẽ đếm thời gian xong 3 giây rồi sẽ push vào callback queue, push cái function vào thôi
@@ -62,7 +62,7 @@
 
   ```js
     setTimeout(function log3() {
-      console.log(3) // 3
+      console.log(3)
     }, 0);
   ```
 
