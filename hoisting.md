@@ -15,13 +15,13 @@ var age = 16
 - Xét ví dụ sau:
 
 ```js
-console.log(sun(6, 9)) // 15
+console.log(sum(6, 9)) // 15
 function sum(a, b) {
   return a + b
 }
 ```
 
-> Lưu ý: Phần khai báo được đưa lên, phần gán không được đưa lện. Khai báo với function auto đưa lên trên
+> Lưu ý: Phần khai báo được đưa lên, phần gán không được đưa lên. Khai báo với function auto đưa lên trên
 
 ## Hoisting với "let", "const"
 
