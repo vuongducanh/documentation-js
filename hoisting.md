@@ -7,17 +7,17 @@
 - Xét ví dụ sau:
 
 ```js
-console.log(age) // undefined
-console.log(fullName) // ReferenceError: fullName is not defined
-var age = 16
+console.log(age); // undefined
+console.log(fullName); // ReferenceError: fullName is not defined
+var age = 16;
 ```
 
 - Xét ví dụ sau:
 
 ```js
-console.log(sum(6, 9)) // 15
+console.log(sum(6, 9)); // 15
 function sum(a, b) {
-  return a + b
+  return a + b;
 }
 ```
 
@@ -29,9 +29,20 @@ function sum(a, b) {
 
 ```js
 {
-  console.log(fullName) // ReferenceError: Cannot access 'fullName' before initialization
-  let fullName = "Nguyen Van A"
+  console.log(fullName); // ReferenceError: Cannot access 'fullName' before initialization
+  let fullName = "Nguyen Van A";
 }
+```
+
+- Xét ví dụ:
+
+```js
+console.log(test(10, 9));
+const test = (a, b) => {
+  return a - b;
+};
+
+// ReferenceError: test is not defined
 ```
 
 > Lưu ý: Khai bao biến với "let", "const" khi được hoisted không được tạo giá trị và được đưa vào "Temporal Dead Zone"
@@ -41,17 +52,17 @@ function sum(a, b) {
 - Xét ví dụ sau:
 
 ```js
-const counter1 = makeCounter()
+const counter1 = makeCounter();
 
-console.log(counter1()) // What's the output?
+console.log(counter1()); // What's the output?
 
 function makeCounter() {
-  let counter = 0
+  let counter = 0;
 
-  return increase
+  return increase;
 
   function increase() {
-    return ++counter
+    return ++counter;
   }
 }
 ```
