@@ -2,6 +2,8 @@
 
 ## Như chúng ta đã biết thì javascript chạy single-threaded vậy tại sao nó lại chạy single-threaded thì chúng ta cùng đi tìm hiểu về event loop
 
+> Single-thread nói đơn giản là mỗi lần chỉ thực thi được một dòng code
+
 ## Event loop hoạt động như thế nào có các ý chính mình cần đi vào là:
 
 - Heap
