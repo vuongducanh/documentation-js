@@ -1,4 +1,4 @@
-## Khhái niệm
+## Khái niệm
 
 ### Javascript có hai loại type của value đó là Primitive types và Reference types
 
